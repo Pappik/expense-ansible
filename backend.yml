@@ -11,7 +11,7 @@
 
     - name: Install Nodejs
       ansible.builtin.dnf:
-        name: nginx
+        name: nodejs
         state: latest
 
     - name: Create an application user
